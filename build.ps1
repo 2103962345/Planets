@@ -1,4 +1,3 @@
-Install-Module -Name Pester -Force
 
 $result = Invoke-Pester "Get-Planet.Tests.ps1"
 
